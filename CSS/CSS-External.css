@@ -1,0 +1,15 @@
+p{
+    color: rgb(228, 167, 88);
+    font: oblique;
+}
+#tag1{
+    background-color: rgb(0, 0, 0);
+    font-family:cursive;
+}
+.tag2{
+    background-color: rgb(8, 133, 249);
+    color:black;
+}
+.tag3{
+    background-color: chartreuse !important;
+}

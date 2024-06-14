@@ -1,0 +1,125 @@
+HTML:
+TAGS-
+<sub> -  sub part of a word H2O3 (2 below h so we use sub)
+<sup> -superior part of a word H2O3 (3 above O so we use sup)
+LISTS - 
+	Orderlist -- [1,2,3] <ol> <li> </li> </ol> 
+ 	unorderedlist -- [. . .] <ul> <li> </li> </ul>
+TABLE TAG - 
+<table> 
+    <tr> 
+	<th> </th> #bold data
+	<td> </td>
+    </tr> 
+</table>
+colspan - divides a columns horizontally
+rowspan - divides a row vertically
+table>tr*3>td*6 - Creates a table with 3 rows and 6 columns
+
+-----------------------------FORMS--------------------------------------
+<!-- Form starts here -->
+<form>
+  <!-- Input field for name --> 
+              <label>Name</label> <input type="text" placeholder="Enter your name"/><br>
+  <!-- Input field for age --> [only allows numbers in input ]
+            <label>Age</label>  <input type="number" placeholder="Enter your age"/><br>
+  <!-- Input field for password --> [Blocks the password in dotted manner]
+            <label>Password</label> <input type="password"/><br>
+  <!-- Radio buttons for gender --> [select only one option from the data]
+  	<label>Gender:</label>
+  	<label>Male</label>
+  	<input type = "radio" name="Gender"/>
+  	<label>Female</label>
+  	<input type = "radio" name="Gender"/><br>
+  <!-- Dropdown list for department --> [options for data in a scroll down manner] 
+  	<label>Department</label>
+  	<select>
+    	<option>CSE</option>
+  	<option>AIML</option>
+    	<option>DS</option>
+    	<option>IT</option>
+  	</select><br>
+  <!-- Checkboxes for skills --> [Helps to select more than one option]
+ 	<label>Skills:</label>
+ 	<label>Data Structures</label>
+  	<input type = "checkbox" name = "Skills"/>
+  	<label>FSD</label>
+  	<input type = "checkbox" name = "Skills"/>
+  	<label>Animation Designing</label>
+  	<input type = "checkbox" name = "Skills"/><br>
+  	<!-- Range input field -->
+  	<label>Range</label>
+  	<input type="range"> <br>
+  <!-- Textarea field --> [Give a huge text box]
+ 	 <label>Textarea:</label>
+ 	<Textarea></Textarea>
+  <!-- Reset and submit buttons --> [Reset the complete form]
+ 	 <input type="reset" />
+  	<input type="submit"/>
+</form>
+
+ANCHOR TAG = For attaching links <a></a> 
+
+CSS:
+Inline Styling:
+Internal Stying:
+External Styling:
+
+Inline Styling:
+Styling is given in the line itself for content
+<body>
+    <p style = "font:900; color: bisque; background-color: black;" > Inline Styling</p>
+</body>
+Internal Styling:
+<head>
+    <title>INTERNAL STYLING</title>
+    <style> 
+        p{
+            color: blue;
+            font-family:'Times New Roman', Times, serif;
+            background-color: burlywood;
+        }
+        #mytag{
+            color: red;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <p id = "mytag">MS DHONI</p>
+    <p id = "mytag">KOHLI</p>
+    <p>SURESH RAINA</p>
+    <p>ROHIT SHARMA</p>
+</body>
+
+External Styling:
+We use a separate css file for Styling
+HTML FILE:
+<head>
+    <title>External Styling</title>
+    <link rel="stylesheet" href="CSS-External.css">
+</head>
+<body>
+    <p>Hey Buddy!Light Weight</p>
+    <p id ="tag1" class="tag2">QuadStomp</p>
+    <p class = "tag2">ARNOLD SCHWEZNEGGAR</p>
+    <p id = "tag1"class ="tag3 tag2">PHIL HEATH</p>
+</body>
+CSS FILE: 
+p{
+    color: rgb(228, 167, 88);
+    font: oblique;
+}
+#tag1{
+    background-color: rgb(0, 0, 0);
+}
+.tag2{
+    background-color: rgb(8, 133, 249) ;
+}
+.tag3{
+    background-color: chartreuse !important;
+}
+
+PREFERENCE:
+!important >inline>id>class
