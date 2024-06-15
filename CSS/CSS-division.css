@@ -1,0 +1,28 @@
+.parent{
+    /* border-top-width: 10px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-right-width: 20px;
+
+    border-top-style: groove;
+    border-bottom-style:ridge;
+    border-left-style: dashed;
+    border-right-style: inset;
+
+    border-left-color: aqua;
+    border-right-color: rgb(229, 255, 0);
+    border-top-color: rgb(239, 138, 5);
+    border-bottom-color:rgb(0, 0, 0);
+
+    /* border-color: blue; */
+    /* background-color: blueviolet;
+    border: 10px solid rgb(234, 0, 255); */ 
+    border: 5px solid black;
+    width: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.child1{
+    font-style: oblique;
+    
+}
