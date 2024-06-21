@@ -1,0 +1,88 @@
+.parent{
+     /* border-top-width: 10px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-right-width: 20px; */
+
+    /*border-top-style: groove;
+    border-bottom-style:ridge;
+    border-left-style: dashed;
+    border-right-style: inset;
+
+    border-left-color: aqua;
+    border-right-color: yellow;
+    border-top-color: orange;
+    border-bottom-color:black; */
+
+    /* border: 5px solid black;
+    height: 100svh;
+    width: 100svw;
+    max-width:1000px;
+    max-height: 1000px;*/
+
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-right: 20px; */
+    /* margin: 100px; */
+
+    height: 400px;
+    width:400px;
+    border: 5px solid black;
+    /* border-radius: 30px; */
+    /* border-top-left-radius: 111px ; */
+    /* border-top-right-radius: 111111px; */
+    /* border-bottom-left-radius: 111111px; */
+    /* border-bottom-right-radius: 111px; */
+
+}
+
+/* .hearts{
+    height: 200px;
+    width: 400px;
+}
+.heart1{
+    height: 197px;
+    width:197px;
+    float: left;
+    border: solid rgb(239, 60, 60);
+}
+.heart2{
+    height: 195px;
+    width:195px;
+    border: solid rgb(239, 60, 60);
+    float: right;
+}
+.triangle{
+    height: 200px;
+    width: 400px;
+}
+.triangle1{
+    height: 197px;
+    width:197px;
+    float: left;
+    border: solid rgb(239, 60, 60);
+    border-bottom-left-radius: 0px;
+}
+.triangle2{
+    height: 195px;
+    width: 195px;
+    float:right;
+    border: solid rgb(239, 60, 60);
+} */
+
+/* .child{
+    height: 200px;
+    width:200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+} */
+/* .button{
+    margin: 10px;
+    background-color: #4CAF50;
+    border: 2px solid red;
+    color: white;  
+    height: 40px;
+    width:40px;
+    border-radius: 2px; */
+/* } */

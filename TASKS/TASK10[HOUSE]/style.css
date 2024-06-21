@@ -1,0 +1,171 @@
+.main{
+    height: 97svh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+.t1{
+    position: absolute;
+    height: 35svh;
+    width: 10svh;
+    background-color: #F4B184;
+    bottom: 1.5svh;
+    right: 40svh;
+}
+.c1{
+    height: 20svh;
+    width: 20svh;
+    background-color: #A8D18D;
+    border-radius: 30svh;
+    position: absolute;
+    right: 45svh;
+    top: 50svh;
+    border: 2px solid black;
+}
+.c2{
+    height: 20svh;
+    width: 20svh;
+    background-color: #A8D18D;
+    border-radius: 30svh;
+    position: absolute;
+    right: 25svh;
+    top: 50svh;
+    border: 2px solid black;
+}
+.c3{
+    height: 20svh;
+    width: 20svh;
+    background-color: #A8D18D;
+    border-radius: 30svh;
+    position: absolute;
+    right: 35svh;
+    top: 37svh;
+    
+    border: 2px solid black;
+}
+.m1{
+    height: 20svh;
+    width: 20svh;
+    background-color: #ffffff;
+    border-radius: 30svh;
+    filter: drop-shadow(2px 2px 10px white);
+    right: 60svh;
+    top: 15svh;
+    position: absolute;
+
+}
+.house{
+    width:70svh ;
+    height: 40svh;
+    background-color: #FED966;
+    position: absolute;
+    bottom: 1.5svh;
+    left: 30svh;
+}
+.door{
+    width:15svh ;
+    height: 30svh;
+    background-color: #F4B184;
+    position: absolute;
+    bottom: 1.5svh;
+    left: 40svh;
+    border: 2px solid black;
+}
+.win{
+    height: 16svh;
+    width: 16svh;
+    background-color: #090de4;
+    position: absolute;
+    bottom:     15svh;
+    left: 70vh;
+    /* border: 2px solid black; */
+}
+.w1{
+    height: 8svh;
+    width: 8svh;
+    background-color: #090de4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid black;
+}
+
+.w2{
+        height: 8svh;
+        width: 8svh;
+        background-color: #090de4;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 2px solid black;
+    
+    }
+    .w3{
+        height: 8svh;
+        width: 8svh;
+        background-color: #090de4;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border: 2px solid black;
+    
+    }
+    .w4{
+        height: 8svh;
+        width: 8svh;
+        background-color: #090de4;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: 2px solid black;
+    
+    }
+    .st{
+        width: 10svh;
+        height: 10svh;
+        left: 6svh;
+        top: 1.5svh;
+        position: absolute;
+    }
+    .st1{
+        width: 10svh;
+        height: 10svh;
+        left: 16svh;
+        top: 1.5svh;
+        position: absolute;
+    }
+    .st2{
+        width: 10svh;
+        height: 10svh;
+        left: 26svh;
+        top: 1.5svh;
+        position: absolute;
+    }
+    .st3{
+        width: 10svh;
+        height: 10svh;
+        left: 36svh;
+        top: 1.5svh;
+        position: absolute;
+    }
+    .st4{
+        width: 10svh;
+        height: 10svh;
+        left: 46svh;
+        top: 1.5svh;
+        position: absolute;
+    }
+    .st5{
+        width: 10svh;
+        height: 10svh;
+        left: 56svh;
+        top: 1.5svh;
+        position: absolute;
+    }
+    .st6{
+        width: 10svh;
+        height: 10svh;
+        left: 66svh;
+        top: 1.5svh;
+        position: absolute;
+    }

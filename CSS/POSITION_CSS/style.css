@@ -1,0 +1,47 @@
+#parent {
+    height: 1600px;
+    width: 600px;
+    background-color: aqua;
+    border: 1px solid black;
+    position: relative;
+    /* padding-top: 200px;  use this and see the difference */
+  }
+#static {
+    height: 100px;
+    width: 600px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: static;
+  }
+#relative {
+    height: 100px;
+    width: 600px;
+    background-color: green;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    left: 60px;
+} 
+#absolute {
+    height: 100px;
+    width: 600px;
+    background-color: blue;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}  
+#fixed{
+    height: 100px;
+    width:600px;
+    background-color: bisque;
+    position: fixed;
+    top: 130px; 
+}
+#sticky{
+    height: 100px;
+    width: 600px;
+    background-color: darkcyan;
+    top:10px;
+    position: sticky;
+}

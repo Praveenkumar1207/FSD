@@ -1,0 +1,13 @@
+#container{
+    height: 20rem;
+    width: 20rem;
+    border: 10px solid rgb(0, 255, 255);
+    font-size: 50px;
+    font-weight: 100;
+    background-image: url(https://images.unsplash.com/photo-1556827739-8cdac8bc6855?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100% 100%;
+    color: transparent;
+    background-clip:text;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table:nth-child(1){
+    background-color: red;
+}
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
