@@ -1,0 +1,32 @@
+#button1 {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(243, 9, 9);
+    color: rgb(1, 251, 255);
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid black;
+  }
+  
+  #button1::before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 242);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  
+  #button1:hover::before {
+    width: 100%;
+    transition: width 3s linear;
+    z-index: -1 ;
+  }
+  
+  #button1:hover {
+    color: white;
+    transition: color 2s linear;
+    z-index: 999;
+  }

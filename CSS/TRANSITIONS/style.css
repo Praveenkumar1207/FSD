@@ -1,0 +1,48 @@
+.container {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .container img {
+    height: 90%;
+    width: 20%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    position: relative; /* add this to allow :before and :after to position correctly */
+  }
+  
+  .container img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* add a dark overlay */
+    opacity: 0; /* hide the overlay initially */
+    transition: opacity 0.3s; /* add a transition effect */
+  }
+  
+  .container img:hover:before {
+    opacity: 1; /* show the overlay on hover */
+  }
+  
+  .container img:hover {
+    width: 80%;
+    transform: scale(1.2); /* simplified transform */
+    border: 1px solid rgb(0, 0, 0);
+    filter: drop-shadow(5px 30px 5px #aea1a1);
+  }
+ /* .parent{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    list-style-type: none;
+ }
+ .parent li::after{
+    content: " KUMAR";
+ } */

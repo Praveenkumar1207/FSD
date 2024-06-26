@@ -1,0 +1,40 @@
+.parent{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100svh;
+    width: 100%;
+    background-color: grey;
+    border: 3px solid black;
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+.child3{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+.child4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+.child5{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}

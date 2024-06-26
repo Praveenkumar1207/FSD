@@ -1,0 +1,72 @@
+.container{
+    height: 95svh;
+    width: 98%;
+    background-color: rgb(234, 234, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/2f/53/5a/2f535af053a5a03cc9ce874ef85d2e4c.jpg);
+    background-size: 100%;
+}
+.min_hand{
+    height: 190px;
+    width: 2px;
+    background-color: rgb(0, 204, 255);
+    position:absolute;
+    top: 2%;
+    left: 49%;
+    animation: min_hand 3600s linear infinite;
+    transform-origin: bottom right;
+}
+.seconds_hand{
+    height: 190px;
+    width: 1px;
+    background-color: black;
+    position:absolute;
+    top: 2%;
+    left: 49%;
+    animation: seconds_hand 60s linear infinite;
+    transform-origin: bottom;
+}
+.hours_hand{
+    height: 190px;
+    width: 4px;
+    background-color: rgb(255, 0, 0);
+    position:absolute;
+    top: 2%;
+    left: 49%;
+    animation: hours_hand 43200s linear infinite;
+    transform-origin: bottom;
+}
+@keyframes min_hand {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes seconds_hand{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes hours_hand{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
