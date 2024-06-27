@@ -1,0 +1,74 @@
+/* #button1 {
+    height: 80px;
+    width: 250px;
+    background-color: rgb(12, 1, 1);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #button1::before {
+    content: "";
+    height: 90%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px grey;
+    position: absolute;
+    left: 10%;
+    top: 0%;
+  }
+  
+  #button1:hover::before {
+    transition: width 3s linear;
+    animation: move 2s infinite;
+  }
+  
+  #button1:hover {
+    color: white;
+    transition: color 2s linear;
+    z-index: 999;
+  }
+  
+  @keyframes move {
+    0% {
+      left: 10%;
+    }
+    100% {
+      left: 70%;
+      box-shadow: -5px -5px -5px grey;
+    }
+  } */
+  #button2{
+    height: 80px;
+    width: 250px;
+    background-color: rgb(12, 1, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+  }
+  #button2::before {
+    content: "Ciklc em";
+    height: 90%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px grey;
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    z-index: -1;
+  }
+  #button2:hover{
+    content: "CLICK ME";
+    background-color: rgb(red, green, blue);
+    height: 50px;
+    width: 220px;
+    box-shadow: -10px 10px 10px rgb(62, 61, 61);
+  }
