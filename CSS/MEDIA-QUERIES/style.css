@@ -4,7 +4,7 @@
     font-size:32px;
     background-color: red;
 }
-@media screen and (min-width:400px){
+@media screen and ((min-width:200px) and (max-width:400px)){
     .parent{
         background-color: rgb(22, 146, 255);
     }
