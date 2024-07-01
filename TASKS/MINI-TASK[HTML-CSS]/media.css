@@ -1,0 +1,20 @@
+
+@media screen and (max-width:900px){
+    .page1_header{
+        display: none;
+    }
+    .header_line{
+        display: block;
+    }
+    .page1body{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .buttons21{
+        width: 20%;
+    }
+}
+@media screen and (max-width:900px){
+    
+}
